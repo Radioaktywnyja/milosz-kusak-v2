@@ -1,0 +1,428 @@
+/*OGOLNE*/
+
+@font-face {
+	font-family: "KaushanScript-Regular";
+	src: url(KaushanScript-Regular.otf) format("truetype")
+}
+
+html {
+	min-height: 101%;
+}
+
+body {
+	background-color: #a25729;
+	font-family: "KaushanScript-Regular", cursive, sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+
+#kontener {	
+	width: 1000px;
+	margin: 0 auto;
+   border-style: solid; 
+   border-width: 40px; 
+   -moz-border-image: url(../images/papier.jpg) 40 80 stretch; 
+   -webkit-border-image: url(../images/papier.jpg) 40 80 stretch; 
+   -o-border-image: url(../images/papier.jpg) 40 80 stretch; 
+   border-image: url(../images/papier.jpg) 40 80 fill stretch;
+   padding: 0 20px 10px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	outline: none;
+}
+
+h2 {
+	margin: 0;
+}
+
+/*GORNE MENU*/
+
+#menu-gora ul {
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#menu-gora li {
+	display: inline-block;
+	line-height: 62px;
+	width: 130px;
+	background-image: url("../images/zwojmini.png");
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+#menu-gora li a {
+	display: inline-block;
+	width: 130px;
+	line-height: 62px;
+}
+
+#menu-gora .active {
+	line-height: 82px;
+	background-image: url("../images/zwojmini2.png");
+}
+
+
+/*PANELE*/
+
+.panel {
+	float: left;
+}
+
+
+	/*panel menu-bok*/
+
+.menu-bok {
+	width: 180px;
+}
+
+.name {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.avatar-lewy {
+	text-align: center;
+}
+
+.menu-bok ul {
+	margin: 0;
+	padding-left: 25px;
+}
+
+.menu-bok label {
+	font-weight: bold;
+}
+
+.pasek {
+	display: block;
+	width: 100px;
+	line-height: 10px;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.exp {
+	background-image: url("../images/exp.gif");
+}
+
+.hp {
+	background-image: url("../images/hp.gif");
+}
+
+.eng {
+	background-image: url("../images/eng.gif");
+}
+
+
+	/*panel main*/
+
+.main {
+	width: 550px;
+	text-align: justify;
+}
+
+.main ul {
+	padding: 0 15px;
+}
+
+.main li {
+	padding-bottom: 3px;
+}
+
+.main label {
+	font-weight: bold;
+}
+
+.tytul {
+	font-weight: bold;
+}
+
+
+	/*panel widgety*/
+
+.widgety {
+	width: 235px;
+	margin-left: 30px;
+}
+
+.aktualnosci-tytul {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.aktualnosci {
+	display: inline-block;
+	width: 235px;
+	min-height: 350px;
+}
+
+.news {
+	border-bottom: 1px dashed #777777;
+	padding: 5px 0;
+	text-align: justify;
+}
+
+.news-date {
+	color: #777777;
+	font-size: 12px;
+}
+
+.news p {
+	margin: 0;
+}
+
+
+	/*index.php*/
+	
+.main .name {
+	font-size: 22px;
+}
+
+.profil-okno {
+	height: 200px;
+}
+
+.avatar-main {
+	display: inline-block;
+	padding-left: 35px;
+	float: left;
+}
+
+.avatar-main img {
+	outline: 1px solid;
+}
+
+.staty {
+	display: inline-block;
+}
+
+.staty ul {
+	margin: 0;
+}
+
+.staty li {
+	padding: 0;
+	border-bottom: 1px solid #777777;
+}
+
+.staty label {
+	display: inline-block;
+	width: 150px;
+	font-weight: bold;
+}
+
+.odnosniki {
+	text-align: center;
+}
+
+.odnosniki ul {
+	padding: 0;
+	margin-top: 15px;
+}
+
+.odnosniki li {
+	display: inline-block;
+	line-height: 20px;
+	width: 220px;
+	font-weight: bold;
+	margin: 0 20px 15px 20px;
+}
+
+.tooltip-act {
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	color: #777777;
+	cursor: pointer;
+}
+
+.tooltip-hide {
+	color: #777777;
+	cursor: pointer;
+}
+
+.tooltip {
+	position: absolute;
+	display: none;
+	min-width: 200px;
+	text-align: left;
+	border-style: solid; 
+   border-width: 45px 23px; 
+   -moz-border-image: url(../images/zwoj.png) 45 23 stretch; 
+   -webkit-border-image: url(../images/zwoj.png) 45 23 stretch; 
+   -o-border-image: url(../images/zwoj.png) 45 23 stretch; 
+   border-image: url(../images/zwoj.png) 45 23 fill stretch;
+}
+
+.tooltip ul {
+	margin-top: 0;
+}
+
+.tooltip li {
+	list-style: circle;
+}
+
+
+	/*history.php*/
+
+
+	/*skills.php*/
+	
+	
+.skills {
+	text-align: left;
+}
+
+.skills li {
+	height: 24px;
+	margin-bottom: 5px;
+}
+
+.skills label {
+	width: 150px;
+	line-height: 24px;
+	float: left;
+}
+
+.gwiazdy-pelne {
+	display: inline-block;
+	background-image: url("../images/fstar.png");
+	height: 24px;
+}
+
+.gwiazdy-puste {
+	display: inline-block;
+	background-image: url("../images/star.png");
+	height: 24px;
+}
+
+.hateemel-pelne {
+	width: 175px;
+}
+.hateemel-puste {
+	width: 75px;
+}
+
+.ceeses-pelne {
+	width: 175px;
+}
+.ceeses-puste {
+	width: 75px;
+}
+
+.jq-pelne {
+	width: 100px;
+}
+.jq-puste {
+	width: 150px;
+}
+
+.react-pelne {
+	width: 25px;
+}
+.react-puste {
+	width: 225px;
+}
+
+.pehape-pelne {
+	width: 125px;
+}
+.pehape-puste {
+	width: 125px;
+}
+
+.eskuel-pelne {
+	width: 125px;
+}
+.eskuel-puste {
+	width: 125px;
+}
+
+.git-pelne {
+	width: 125px;
+}
+.git-puste {
+	width: 125px;
+}
+
+.admin-pelne {
+	width: 100px;
+}
+.admin-puste {
+	width: 150px;
+}
+
+.rastr-pelne {
+	width: 100px;
+}
+.rastr-puste {
+	width: 150px;
+}
+
+.wektor-pelne {
+	width: 150px;
+}
+.wektor-puste {
+	width: 100px;
+}
+
+.ang-pelne {
+	width: 175px;
+}
+.ang-puste {
+	width: 75px;
+}
+
+.niem-pelne {
+	width: 25px;
+}
+.niem-puste {
+	width: 225px;
+}
+
+.symfony-pelne {
+	width: 100px;
+}
+.symfony-puste {
+	width: 150px;
+}
+
+	/*quests.php*/
+
+
+	/*achievements.php*/
+	
+.achieve li {
+	list-style: circle;
+}
+
+
+	/*contact.php*/
+
+.kontakt {
+
+}
+	
+.kontakt label {
+	display: inline-block;
+	width: 130px;
+}

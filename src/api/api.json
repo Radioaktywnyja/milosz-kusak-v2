@@ -1,0 +1,63 @@
+{
+	"dane": {
+		"imie": "Miłosz",
+		"nazwisko": "Kusak",
+		"plec": "Mężczyzna",
+		"rasa": "Człowiek",
+		"klasa": "Web Developer",
+		"charakter": "Praworządny neutralny",
+		"lokalizacja": "Bulowice",
+		"doswiadczenie": "35%",
+		"zdrowie": "98%",
+		"zaangażowanie": "110%",
+		"mail": "kusak.milosz@gmail.com",
+		"www": "www.milosz-kusak.pl",
+		"github": "www.github.com/Radioaktywnyja",
+		"codepen": "www.codepen.io/Radioaktywnyja"
+	},
+	"umiejetnosci": [
+		{ "nazwa": "HTML5", "poziom": 7 }
+		{ "nazwa": "CSS3/Sass", "poziom": 7 }
+		{ "nazwa": "ReactJS", "poziom": 4 }
+		{ "nazwa": "jQuery", "poziom": 4 }
+		{ "nazwa": "Symfony3", "poziom": 4 }
+		{ "nazwa": "PHP", "poziom": 5 }
+		{ "nazwa": "MySQL", "poziom": 4 }
+		{ "nazwa": "Bootstrap", "poziom": 3 }
+		{ "nazwa": "Git", "poziom": 5 }
+		{ "nazwa": "Administracja", "poziom": 4 }
+		{ "nazwa": "Grafika rastrowa", "poziom": 4 }
+		{ "nazwa": "Grafika wektorowa", "poziom": 6 }
+		{ "nazwa": "Język angielski", "poziom": 7 }
+	],
+	"osiagniecia": [
+		{ 
+			"adres": "http://www.www.domowy-budzet.net.pl/budzet ", 
+			"opis": "narzędzie do kontroli domowego budżetu napisane w Symfony 3.4 z wykorzystaniem Doctrine. Strona jest cały czas rozwijana ale podstawy już działają." 
+		},
+		{ 
+			"adres": "http://www.milosz-kusak.pl/image-downloader", 
+			"opis": "parser wyświetlający linki do wszystkich obrazów na danej stronie. Wykonany w celu przećwiczenia obiektowego php. Wykorzystuje również bibliotekę CURL i podstawy bootstrapa." 
+		},
+		{ 
+			"adres": "www.codepen.io/Radioaktywnyja", 
+			"opis": "niewielkie projekty wykonane w ReactJS na potrzeby kursu FreeCodeCamp." 
+		},
+		{ 
+			"adres": "http://www.milosz-kusak.pl/kreator_cv", 
+			"opis": "przeglądarkowy kreator CV. Napisany w PHP i jQuery. Wykończenie frontendu zostało tymczasowo odłożone na rzecz nauki symfony." 
+		},
+		{ 
+			"adres": "http://www.milosz-kusak.pl", 
+			"opis": "karta postaci pewnego początkującego Web Developera. Strona napisana z wykorzystaniem PHP i skryptów jQuery." 
+		},
+		{ 
+			"adres": "http://www.joannaczarnik.cba.pl", 
+			"opis": "strona firmowa mobilnego salonu fryzjerskiego. Galeria autorska napisana w jQuery, bez wykorzystania dostępnych szablonów." 
+		},
+		{ 
+			"adres": "http://www.photosd.webd.pl/arabic2roman", 
+			"opis": "autorski konwerter liczb arabskich na rzymskie - jeden z niewielu obługujacych liczby powyżej 4000. Strona stworzona wspólnie z Eldamiani, napisana w ReactJS z zastosowaniem reaktywnego web designu. Podczas tworzenia zależało nam na przystępności, stąd też tlumaczenie \"na żywo\" (bez klikania żadnych buttonów) oraz objaśnienia jak liczba powstała." 
+		}
+	],
+}
