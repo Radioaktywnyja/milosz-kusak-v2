@@ -19,10 +19,10 @@
 	"umiejetnosci": [
 		{ "nazwa": "HTML5", "poziom": 7 },
 		{ "nazwa": "CSS3/Sass", "poziom": 7 },
-		{ "nazwa": "ReactJS", "poziom": 4 },
+		{ "nazwa": "ReactJS", "poziom": 5 },
 		{ "nazwa": "jQuery", "poziom": 4 },
 		{ "nazwa": "Symfony3", "poziom": 4 },
-		{ "nazwa": "PHP", "poziom": 5 },
+		{ "nazwa": "PHP7", "poziom": 5 },
 		{ "nazwa": "MySQL", "poziom": 4 },
 		{ "nazwa": "Bootstrap", "poziom": 3 },
 		{ "nazwa": "Git", "poziom": 5 },
@@ -32,6 +32,10 @@
 		{ "nazwa": "Język angielski", "poziom": 7 }
 	],
 	"zadania": [
+		{
+			"adres": "http://www.milosz-kusak.pl",
+			"opis": "karta postaci pewnego początkującego Web Developera. Strona napisana w ReactJS."
+		},
 		{
 			"adres": "http://www.domowy-budzet.net.pl/budzet ",
 			"opis": "narzędzie do kontroli domowego budżetu napisane w Symfony 3.4 z wykorzystaniem Doctrine. Strona jest cały czas rozwijana ale podstawy już działają."
@@ -49,8 +53,8 @@
 			"opis": "przeglądarkowy kreator CV. Napisany w PHP i jQuery. Wykończenie frontendu zostało tymczasowo odłożone na rzecz nauki symfony."
 		},
 		{
-			"adres": "http://www.milosz-kusak.pl",
-			"opis": "karta postaci pewnego początkującego Web Developera. Strona napisana z wykorzystaniem PHP i skryptów jQuery."
+			"adres": "http://www.milosz-kusak.pl/old-page",
+			"opis": "pierwsza wersja mojej strony wizytówki. Napisana z wykorzystaniem PHP i skryptów jQuery."
 		},
 		{
 			"adres": "http://www.joannaczarnik.cba.pl",
@@ -65,5 +69,12 @@
 		{ "nazwa": "Stolarstwo" },
 		{ "nazwa": "Literatura oraz film fantasy" },
 		{ "nazwa": "Sesje RPG - i jako gracz, i jako mistrz gry" }
+	],
+	"news": [
+		{
+			"dzien": "Nd",
+			"data": "19-05-2019",
+			"tresc": "Już wkrótce rozpocznie się nowy etap mojej przygody z kodowaniem, czego początkiem jest ponowne otwacie tej strony, tym razem napisanej w ReactJS."
+		}
 	]
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import CookieConsent from 'react-cookie-consent';
 
 import Menu from './Menu';
 import LeftPanel from './LeftPanel';
@@ -13,7 +14,7 @@ import History from './../pages/History';
 import Contact from './../pages/Contact.js';
 
 function Main() {
-	const [dane, setDane] = useState({ personalia: [], umiejetnosci: [], zadania: [], hobby: [] });
+	const [dane, setDane] = useState({ personalia: [], umiejetnosci: [], zadania: [], hobby: [], news: [] });
 
 	useEffect(() => {
     const fetchData = async () => {
@@ -37,8 +38,11 @@ function Main() {
 					<Route path="/historia" component={History} />
 					<Route path="/kontakt" render={(props) => <Contact {...props} dane={dane.personalia} />} />
 				</div>
-				<RightPanel />
+				<RightPanel dane={dane.news} />
 			</Router>
+			<CookieConsent buttonText="Rozumiem" style={{ background: "#fcedd0", color: "black", opacity: 0.7 }} buttonStyle={{ background: "#cca470", borderRadius: "5px" }}>
+				Ta strona korzysta z plików cookie. Dalsze korzystanie ze strony oznacza zgodę na ich użycie.
+			</CookieConsent>
 		</div>
 	);
 }
