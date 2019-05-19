@@ -13,7 +13,7 @@ import History from './../pages/History';
 import Contact from './../pages/Contact.js';
 
 function Main() {
-	const [dane, setDane] = useState({ personalia: [], umiejetnosci: [], zadania: [] });
+	const [dane, setDane] = useState({ personalia: [], umiejetnosci: [], zadania: [], hobby: [] });
 
 	useEffect(() => {
     const fetchData = async () => {

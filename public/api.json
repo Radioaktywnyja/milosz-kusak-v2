@@ -60,5 +60,10 @@
 			"adres": "http://www.photosd.webd.pl/arabic2roman",
 			"opis": "autorski konwerter liczb arabskich na rzymskie - jeden z niewielu obługujacych liczby powyżej 4000. Strona stworzona wspólnie z Eldamiani, napisana w ReactJS z zastosowaniem reaktywnego web designu. Podczas tworzenia zależało nam na przystępności, stąd też tlumaczenie \"na żywo\" (bez klikania żadnych buttonów) oraz objaśnienia jak liczba powstała."
 		}
+	],
+	"hobby": [
+		{ "nazwa": "Stolarstwo" },
+		{ "nazwa": "Literatura oraz film fantasy" },
+		{ "nazwa": "Sesje RPG - i jako gracz, i jako mistrz gry" }
 	]
 }
