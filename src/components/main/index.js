@@ -18,9 +18,7 @@ function Main() {
 
 	useEffect(() => {
     const fetchData = async () => {
-      const result = await axios(
-        'http://localhost:3000/api.json',
-      );
+      const result = await axios('api.json');
       setDane(result.data);
     };
     fetchData();

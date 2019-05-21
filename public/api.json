@@ -53,16 +53,16 @@
 			"opis": "przeglądarkowy kreator CV. Napisany w PHP i jQuery. Wykończenie frontendu zostało tymczasowo odłożone na rzecz nauki symfony."
 		},
 		{
+			"adres": "http://www.milosz-kusak.pl/arabic2roman",
+			"opis": "autorski konwerter liczb arabskich na rzymskie - jeden z niewielu obługujacych liczby powyżej 4000. Strona stworzona wspólnie z Eldamiani, napisana w ReactJS z zastosowaniem reaktywnego web designu. Podczas tworzenia zależało nam na przystępności, stąd też tlumaczenie \"na żywo\" (bez klikania żadnych buttonów) oraz objaśnienia jak liczba powstała."
+		},
+		{
 			"adres": "http://www.milosz-kusak.pl/old-page",
 			"opis": "pierwsza wersja mojej strony wizytówki. Napisana z wykorzystaniem PHP i skryptów jQuery."
 		},
 		{
 			"adres": "http://www.joannaczarnik.cba.pl",
 			"opis": "strona firmowa mobilnego salonu fryzjerskiego. Galeria autorska napisana w jQuery, bez wykorzystania dostępnych szablonów."
-		},
-		{
-			"adres": "http://www.photosd.webd.pl/arabic2roman",
-			"opis": "autorski konwerter liczb arabskich na rzymskie - jeden z niewielu obługujacych liczby powyżej 4000. Strona stworzona wspólnie z Eldamiani, napisana w ReactJS z zastosowaniem reaktywnego web designu. Podczas tworzenia zależało nam na przystępności, stąd też tlumaczenie \"na żywo\" (bez klikania żadnych buttonów) oraz objaśnienia jak liczba powstała."
 		}
 	],
 	"hobby": [
