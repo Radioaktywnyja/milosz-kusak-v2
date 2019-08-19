@@ -19,12 +19,19 @@
 	"umiejetnosci": [
 		{ "nazwa": "HTML5", "poziom": 7 },
 		{ "nazwa": "CSS3/Sass", "poziom": 7 },
-		{ "nazwa": "ReactJS", "poziom": 5 },
+		{ "nazwa": "ReactJS + Hooks", "poziom": 5 },
+		{ "nazwa": "Redux", "poziom": 3 },
 		{ "nazwa": "jQuery", "poziom": 4 },
 		{ "nazwa": "Symfony3", "poziom": 4 },
 		{ "nazwa": "PHP7", "poziom": 5 },
 		{ "nazwa": "MySQL", "poziom": 4 },
-		{ "nazwa": "Bootstrap", "poziom": 3 },
+		{ "nazwa": "MongoDB", "poziom": 3 },
+		{ "nazwa": "Mongoose", "poziom": 3 },
+		{ "nazwa": "Node.js", "poziom": 3 },
+		{ "nazwa": "Express", "poziom": 3 },
+		{ "nazwa": "Bootstrap", "poziom": 5 },
+		{ "nazwa": "Jest", "poziom": 4 },
+		{ "nazwa": "Puppeteer", "poziom": 4 },
 		{ "nazwa": "Git", "poziom": 5 },
 		{ "nazwa": "Administracja", "poziom": 4 },
 		{ "nazwa": "Grafika rastrowa", "poziom": 4 },
@@ -33,8 +40,16 @@
 	],
 	"zadania": [
 		{
+			"adres": "http://www.eventer.net.pl",
+			"opis": "Aplikacja MERN Stack. Frontend wykonany w React + Redux połączony z API stworzonym przy pomocy MongoDB, Mongoose i Express. Testy automatyczne napisane w Jest i Puppeteer."
+		},
+		{
+			"adres": "http://www.milosz-kusak.pl/milo-cards",
+			"opis": "Strona z grami karcianymi napisana w ReactJS z użyciem React Hooks, zewnętrznego API i responsywnych stylów SCSS. Strona jest aktualnie rozwijana."
+		},
+		{
 			"adres": "http://www.milosz-kusak.pl",
-			"opis": "karta postaci pewnego początkującego Web Developera. Strona napisana w ReactJS."
+			"opis": "karta postaci pewnego początkującego Web Developera. Strona napisana w ReactJS z wykorzystaniem API."
 		},
 		{
 			"adres": "http://www.domowy-budzet.net.pl/budzet ",

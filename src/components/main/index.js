@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CookieConsent from 'react-cookie-consent';
 
 import Menu from './Menu';
@@ -30,11 +30,14 @@ function Main() {
 				<Menu />
 				<LeftPanel dane={dane.personalia} />
 				<div className="panel main">
-					<Route exact path="/" render={(props) => <Home {...props} dane={dane} />} />
-					<Route path="/umiejetnosci" render={(props) => <Skills {...props} dane={dane.umiejetnosci} />} />
-					<Route path="/zadania" render={(props) => <Quests {...props} dane={dane.zadania} />} />
-					<Route path="/historia" component={History} />
-					<Route path="/kontakt" render={(props) => <Contact {...props} dane={dane.personalia} />} />
+					<Switch>
+						<Route exact path="/" render={(props) => <Home {...props} dane={dane} />} />
+						<Route path="/umiejetnosci" render={(props) => <Skills {...props} dane={dane.umiejetnosci} />} />
+						<Route path="/zadania" render={(props) => <Quests {...props} dane={dane.zadania} />} />
+						<Route path="/historia" component={History} />
+						<Route path="/kontakt" render={(props) => <Contact {...props} dane={dane.personalia} />} />
+						<Route render={(props) => <Home {...props} dane={dane} />} />
+					</Switch>
 				</div>
 				<RightPanel dane={dane.news} />
 			</Router>
